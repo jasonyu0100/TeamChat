@@ -1,0 +1,52 @@
+@import "css/colors";
+@import "css/elevation";
+@import "css/text";
+
+.app-top-bar {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 64px;
+  z-index: 2;
+  padding: 0px 10px;
+  border-bottom: 1px solid $greyScale4;
+  background-color: $greyScaleWhite;
+  .left-settings {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    > * {
+      margin-right: 20px;
+    }
+    .top-bar-navigation-button {
+      cursor: pointer;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      text-align: center;
+      padding: 10px;
+      margin-right: 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      background-color: transparent;
+      color: $greyScaleBlack;
+      .MuiSvgIcon-root {
+        margin-right: 20px;
+        color: $greyScale6;
+      }
+      &:hover {
+        background-color: $orange10;
+      }
+    }
+  }
+  .right-settings {
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    > * {
+      margin-left: 20px;
+    }
+  }
+}
