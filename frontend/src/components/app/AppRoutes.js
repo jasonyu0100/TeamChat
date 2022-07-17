@@ -21,9 +21,9 @@ export default function AppRoutes() {
 
             {/* Cleaner way to do this? */}
             <ul>
-            <li><a href="/">Home Page</a></li>
-            <li><a href="/register">Registration</a></li>
-            <li><a href="/chat">Chat</a></li>
+                <li><a href="/">Home Page</a></li>
+                <li><a href="/register">Registration</a></li>
+                <li><a href="/chat">Chat</a></li>
             </ul>
         </div>
     )
