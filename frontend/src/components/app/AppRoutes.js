@@ -18,6 +18,13 @@ export default function AppRoutes() {
                 <Route exact path="/register" component={RegistrationPage} />
                 <Route exact path="/chat" component={ChatPage} />
             </Switch>
+
+            {/* Cleaner way to do this? */}
+            <ul>
+            <li><a href="/">Home Page</a></li>
+            <li><a href="/register">Registration</a></li>
+            <li><a href="/chat">Chat</a></li>
+            </ul>
         </div>
     )
 }
